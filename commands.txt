@@ -1,0 +1,27 @@
+// commands:
+pwd : present working directory
+ls : list all the folders and files of directory
+cd .. : to get one step back
+cd DIRECTORY_NAME : to get into that directory
+mkdir : to create folder
+touch NAME.EXTENSION : tocreate file
+rmdir NAME : to remove folder
+rm NAME.EXTENSION : to remove file
+clear : to clear terminal
+
+
+//flags
+-r : recurson flag (function calling itself)
+
+
+//git commands
+git init : to start initalization into git
+git status : to check the status
+git add . or git add -A : to track all the files on git
+git commit -m "MESSAGE" : to add message on git status
+git log : to know the status of the whole work done on git
+
+
+//configur email and user
+git config --global user.email ABC@gmail.com^C
+git config --global user.name USERNAME
