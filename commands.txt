@@ -8,6 +8,12 @@ touch NAME.EXTENSION : tocreate file
 rmdir NAME : to remove folder
 rm NAME.EXTENSION : to remove file
 clear : to clear terminal
+nano : to open file for editing
+cat FILE.EXTENSION : to read file
+mv FOLDER_NAME ../ : to move folder in backword folder one
+mv FOLDER_NAME ./ TO_MOVING_FOLDER_NAME : to move a folder in different folder contained in same folder
+mv PREVIOUS_FILE_NAME NEW_FILE_NAME : to rename folder
+mv OLD_FILE_NAME.EXTENSION NEW_FILE_NAME.EXTENSION : to rename file
 
 
 //flags
@@ -25,3 +31,49 @@ git log : to know the status of the whole work done on git
 //configur email and user
 git config --global user.email ABC@gmail.com^C
 git config --global user.name USERNAME
+
+note:-
+to check user details
+git config --list
+
+
+//shift repo from local to remote
+git remote add origin 'paste_repo_link'
+
+
+//change branch from MASTER to MAIN
+git branch -M main
+
+
+//commit
+git commit -m "MESSAGE"
+
+
+//push the repo online
+git push -u origin main
+
+
+//steps to create secret file and upload
+touch .gitignore : to create a .file of that name
+-now open that file and add the file name with extension if any and save the .gitignore file
+git status
+git add .
+git status
+git commit -m "MESSAGE"
+git push -u origin main
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
