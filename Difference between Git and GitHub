@@ -1,0 +1,12 @@
+Git
+Defination: Git is a free open source version control system that helps developers store code, track changes and collaborate on projects.
+Version control system is a software tool that helps manage and track changes to code or document over time.
+Git is used because it makes collaboration easier and to ensure that changes dont conflict
+Local repository is a copy of projects codebase stored on our own system containing complete history
+Command line tool is a set of commands that allow users to interact with a git repository directly through text based interface
+
+Git Hub
+Defination: It is a property developer platform that allows developers to create, store, manage and share their code. It uses git to provide distributed verson control and github itself provide access control, bug tracking, feature request, task management.
+Github process is a static site hosting service that takes HTML CSS JavaScript from a repository on github, it helps to host repository. 
+Beyond basic code hosting, github provides additional features like issue tracking, pull request for collaboration code review and built in code review tools that allow user to comment directly on proposed changes within a pull request.
+Alternatives of github are Gitlab, bitbucket, azure devOps, ets
