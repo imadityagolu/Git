@@ -63,6 +63,24 @@ git commit -m "MESSAGE"
 git push -u origin main
 
 
+//clone repo
+git clone LINK 
+-link of the public reop which is to be download in local
+
+
+//forking repo
+1. first fork repo in your github id
+2. make a folder for it inlocal
+3. git init
+4. git remote add origin LINK
+5. git branch -M main
+6. git pull origin main
+
+-to make changes and update to repo
+1. make changes
+2. git commit -m MESSAGE
+3. git push -u origin main
+
 
 
 
